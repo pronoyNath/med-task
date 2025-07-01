@@ -45,7 +45,7 @@ const Navbar = () => {
     })
 
   return (
-    <header className="container bg-transparent pb-8 !pt-5 md:pt-8  flex justify-between items-center md:max-w-5xl w-full lg:pr-44">
+    <header className="container bg-transparent pb-8 !pt-5 md:pt-8  flex justify-between items-center md:max-w-5xl w-full ">
       <div className="flex items-center justify-between md:max-w-md w-full relative">
         {/* logo */}
         <img src={logo} className="navLinks max-w-28 lg:max-w-48" alt="logo" />
