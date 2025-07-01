@@ -27,22 +27,22 @@ const Navbar = () => {
     { id: 3, label: "About", href: "/" },
   ];
 
-  //   useGSAP(()=>{
-  //     gsap.from(".navLinks",{
-  //       duration: 0.9,
-  //       opacity: 0,
-  //       y: -20,
-  //       stagger: 0.1,
-  //       ease: "back.in"
-  //     })
-  //     gsap.from(".btn",{
-  //       duration: 0.9,
-  //       opacity: 0,
-  //       x: 30,
-  //       stagger: 0.1,
-  //       ease: "back.in"
-  //     })
-  //   })
+    useGSAP(()=>{
+      gsap.from(".navLinks",{
+        duration: 0.9,
+        opacity: 0,
+        y: -20,
+        stagger: 0.1,
+        ease: "back.in"
+      })
+      gsap.from(".btn",{
+        duration: 0.9,
+        opacity: 0,
+        x: 30,
+        stagger: 0.1,
+        ease: "back.in"
+      })
+    })
 
   return (
     <header className="container bg-transparent pb-8 !pt-5 md:pt-8  flex justify-between items-center md:max-w-5xl w-full lg:pr-44">
