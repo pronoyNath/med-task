@@ -14,7 +14,7 @@ A modern, responsive React website for clinics and healthcare professionals. Bui
 
 ![Klinic Screenshot](./public/fullSiteImg.png)
 
-> 📝 *Make sure `og-image.png` is available in the root of your hosted site. If not, replace the link with your actual image URL.*
+
 
 ---
 
@@ -37,7 +37,7 @@ A modern, responsive React website for clinics and healthcare professionals. Bui
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/klinic-site.git
+git clone https://github.com/pronoyNath/klinic-site.git
 cd klinic-site
 
 # 2. Install dependencies
